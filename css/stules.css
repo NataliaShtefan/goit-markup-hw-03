@@ -2,7 +2,7 @@ body  {
    font-family: Roboto, sans-serif;
    font-size: 16px;
    color: #434455;
-   background-color:#FFFFFF ;
+   background-color:#FFFFFF;
 
 }
 
@@ -32,9 +32,12 @@ letter-spacing: 0.02em;
 }
 header {
     background-color: #FFFFFF;
+    margin-bottom: 0;
 }
 .title {
     background-color: #2E2F42;
+    margin-top: 0;
+    height: 600px;
 }
 .skrools {
     color: #FFFFFF;
@@ -43,6 +46,11 @@ header {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+ padding-top: 188px;
+ padding-bottom: 48px;
+ width: 496px;
+margin: 0 auto;
+ 
 }
 .button {
     background-color: #4D5AE5;
@@ -53,6 +61,16 @@ header {
     cursor: pointer;
     letter-spacing: 0.04em;
     font-family:"Roboto", sans-serif ;
+    display: block;
+    padding: 16px 32px;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: center;
+    border-radius: 4px;
+    gap:10px;
+    margin: 0 auto;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .button:hover, .button:focus {
     background-color:#404BBF;
@@ -65,6 +83,7 @@ header {
     color:#2E2F42;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 72px;
     
 }
 .nametree {
@@ -73,16 +92,18 @@ header {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2E2F42;
+    margin-top: 0;
+    margin-bottom: 8px;
+
 }
 .our-team {
     background-color:#F4F4FD;
 }
-.cards {
-    background-color: #FFFFFF;
-}
+
 .footer {
     background-color: #2E2F42;
     color: #FFFFFF;
+    height: 312px;
 }
     .logo{ 
     font-family:"Raleway", sans-serif ;
@@ -93,6 +114,13 @@ header {
     text-transform: uppercase;
     color: #4D5AE5;
     text-decoration: none;
+    display: inline-flex;
+    height: 24px;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 76px;
+   
+    
 }
 .text-footer {
     line-height: 1.5;
@@ -106,12 +134,134 @@ header {
 .logo2 {
     color: #2E2F42;
 }
-ul {
-    list-style-type: none;
-}
 
 .text {
     letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
+}
+.container {
+width: 1440px;
+padding-left:  0px;
+padding-right:  0px;
+margin-left:  auto;
+margin-right: auto;
+
+}
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+width: 1158px;
+margin: 0 156px;
+
+
+}
+h1, h2 ,h4, h5, h6, p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ul, ol {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+    list-style-type: none;
+}
+img {
+	display: block;
+    max-width: 100%;
+}
+.header-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 72px;
+    align-items: center;
+    border-bottom: 1px solid #E7E9FC;
+    padding: 24px 0x;
+
+
+}
+.global-nav {
+    display: flex;
+    flex-direction: row;
+  
+}
+.navigation-page{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-right: 332px;
+   
+}
+.page-contacts {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+   
+}
+.info-page {
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    gap: 8px 24px;
+   
+}
+.team-card {
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    gap: 24px; 
+}
+.cards {
+    background-color: #FFFFFF;
+    display: inline-flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 0px 0px 4px 4px;
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
+}
+.card-info {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+}
+.projects-cards {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.info-projects {
+    border-left: 1px solid  #E7E9FC;
+    border-right: 1px solid  #E7E9FC; 
+    border-bottom: 1px solid  #E7E9FC;
+ width: 360px;
+ padding: 32px 16px;
+}
+
+.content-footer {
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 156px;
+    display: flex;
+    flex-direction: column;
+}
+.text-footer {
+    width: 264px;
+}
+.logofooter {
+    margin-bottom: 16px;
 }
