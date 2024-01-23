@@ -189,12 +189,17 @@ img {
 }
 .global-nav {
   display: flex;
+  align-items: center;
 }
 .navigation-page {
   display: flex;
   gap: 40px;
   margin-right: 332px;
 }
+.page-nav {
+  padding: 24px 0;
+}
+
 .page-contacts {
   display: flex;
   gap: 40px;
