@@ -182,7 +182,6 @@ img {
 .header-page {
   border-bottom: 1px solid #e7e9fc;
   display: block;
-  padding: 24px 0;
 }
 .header-page .container {
   display: flex;
@@ -198,6 +197,7 @@ img {
   gap: 40px;
 }
 .page-nav {
+  display: block;
   padding: 24px 0;
 }
 
